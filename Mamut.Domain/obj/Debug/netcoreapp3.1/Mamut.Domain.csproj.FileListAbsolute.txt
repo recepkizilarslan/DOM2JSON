@@ -1,9 +1,0 @@
-C:\Users\kizil\Desktop\OS_Projects\Mamut\Mamut.Domain\bin\Debug\netcoreapp3.1\Mamut.Domain.deps.json
-C:\Users\kizil\Desktop\OS_Projects\Mamut\Mamut.Domain\bin\Debug\netcoreapp3.1\Mamut.Domain.dll
-C:\Users\kizil\Desktop\OS_Projects\Mamut\Mamut.Domain\bin\Debug\netcoreapp3.1\Mamut.Domain.pdb
-C:\Users\kizil\Desktop\OS_Projects\Mamut\Mamut.Domain\obj\Debug\netcoreapp3.1\Mamut.Domain.AssemblyInfoInputs.cache
-C:\Users\kizil\Desktop\OS_Projects\Mamut\Mamut.Domain\obj\Debug\netcoreapp3.1\Mamut.Domain.AssemblyInfo.cs
-C:\Users\kizil\Desktop\OS_Projects\Mamut\Mamut.Domain\obj\Debug\netcoreapp3.1\Mamut.Domain.csproj.CoreCompileInputs.cache
-C:\Users\kizil\Desktop\OS_Projects\Mamut\Mamut.Domain\obj\Debug\netcoreapp3.1\Mamut.Domain.dll
-C:\Users\kizil\Desktop\OS_Projects\Mamut\Mamut.Domain\obj\Debug\netcoreapp3.1\Mamut.Domain.pdb
-C:\Users\kizil\Desktop\OS_Projects\Mamut\Mamut.Domain\obj\Debug\netcoreapp3.1\Mamut.Domain.csprojAssemblyReference.cache
