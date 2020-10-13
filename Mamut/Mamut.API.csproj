@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>b3c796bc-6f1a-4cf0-9da5-f854f3e7c73f</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>.</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mamut.Domain\Mamut.Domain.csproj" />
+    <ProjectReference Include="..\Mamut.DomParser\Mamut.DomParser.csproj" />
+    <ProjectReference Include="..\Mamut.Navigator\Mamut.Navigator.csproj" />
+  </ItemGroup>
+
+
+</Project>

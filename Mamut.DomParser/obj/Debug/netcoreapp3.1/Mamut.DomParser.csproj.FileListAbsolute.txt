@@ -1,0 +1,12 @@
+C:\Users\kizil\Desktop\OS_Projects\Mamut\Mamut.DomParser\bin\Debug\netcoreapp3.1\Mamut.DomParser.deps.json
+C:\Users\kizil\Desktop\OS_Projects\Mamut\Mamut.DomParser\bin\Debug\netcoreapp3.1\Mamut.DomParser.dll
+C:\Users\kizil\Desktop\OS_Projects\Mamut\Mamut.DomParser\obj\Debug\netcoreapp3.1\Mamut.DomParser.csprojAssemblyReference.cache
+C:\Users\kizil\Desktop\OS_Projects\Mamut\Mamut.DomParser\obj\Debug\netcoreapp3.1\Mamut.DomParser.AssemblyInfoInputs.cache
+C:\Users\kizil\Desktop\OS_Projects\Mamut\Mamut.DomParser\obj\Debug\netcoreapp3.1\Mamut.DomParser.AssemblyInfo.cs
+C:\Users\kizil\Desktop\OS_Projects\Mamut\Mamut.DomParser\bin\Debug\netcoreapp3.1\Mamut.DomParser.pdb
+C:\Users\kizil\Desktop\OS_Projects\Mamut\Mamut.DomParser\bin\Debug\netcoreapp3.1\Mamut.Domain.dll
+C:\Users\kizil\Desktop\OS_Projects\Mamut\Mamut.DomParser\bin\Debug\netcoreapp3.1\Mamut.Domain.pdb
+C:\Users\kizil\Desktop\OS_Projects\Mamut\Mamut.DomParser\obj\Debug\netcoreapp3.1\Mamut.DomParser.csproj.CoreCompileInputs.cache
+C:\Users\kizil\Desktop\OS_Projects\Mamut\Mamut.DomParser\obj\Debug\netcoreapp3.1\Mamut.DomParser.csproj.CopyComplete
+C:\Users\kizil\Desktop\OS_Projects\Mamut\Mamut.DomParser\obj\Debug\netcoreapp3.1\Mamut.DomParser.dll
+C:\Users\kizil\Desktop\OS_Projects\Mamut\Mamut.DomParser\obj\Debug\netcoreapp3.1\Mamut.DomParser.pdb
