@@ -1,6 +1,5 @@
 # Mamut
-Mamut is a converting service. It provides to convert all DOM object to JSON.
-Mamut is a my sunday project. Its a simple DOM converting service. It provides to convert all DOM object to JSON. 
+Mamut is a my sunday project.It provides to convert all DOM object to JSON.
   - It rendering target site content via chromium. So it can parse SPA(Single Page Application)
   - It parses all objects on the DOM. (Comments, meta e.t.c tags are included.)
 
