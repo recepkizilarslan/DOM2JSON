@@ -14,7 +14,6 @@ namespace Mamut.Controllers
     public class MainEndPoints : ControllerBase
     {
         private readonly ILogger<MainEndPoints> _logger;
-
         private readonly IParserManager _parserManager;
         private readonly INavigatorManager _navigatorManager;
 
@@ -32,25 +31,24 @@ namespace Mamut.Controllers
         [Route("convert")]
         public async Task<IActionResult> ConvertContent(Request request)
         {
-
-            List<Page> page = new List<Page>();
+            Page page = new Page();
 
             try
             {
-                    await _navigatorManager.OpenNavigator();
+                //open navigator
+                await _navigatorManager.OpenNavigator();
                 
-                    string context = await _navigatorManager.Render(request.target);
-
-                    _parserManager.LoadHTML(context);
-
-                    page.Add(new Page
-                    {
-                        Url = request.target,
-                        Elements = _parserManager.Parse()
-                    }); ;
-
-                    await _navigatorManager.CloseNavigator();
+                string rawHTML = await _navigatorManager.Render(request.target);
                 
+                //load raw html to agality pack context.
+                _parserManager.LoadHTML(rawHTML);
+
+                //add a new page
+                page.Url = request.target;
+                page.Elements = _parserManager.Parse();
+
+                //close navigator
+                await _navigatorManager.CloseNavigator();
             }
             catch(Exception e)
             {

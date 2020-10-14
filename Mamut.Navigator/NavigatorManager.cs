@@ -1,40 +1,27 @@
-﻿using Microsoft.Extensions.Logging;
-using PuppeteerSharp;
+﻿using PuppeteerSharp;
 using System.Threading.Tasks;
 
 namespace Mamut.Navigator
-{ 
+{
     public class NavigatorManager:INavigatorManager
     {
         private Browser _browser;
-        
-        private ILogger<NavigatorManager> _logger;
-
 
         /// <summary>
         /// This method provides to open chromium instance
         /// </summary>
         /// <returns>true/false</returns>
-        public async Task<bool> OpenNavigator()
+        public async Task OpenNavigator()
         {
             //Download chromium
             await new BrowserFetcher().DownloadAsync(BrowserFetcher.DefaultRevision);
-
-            try
-            {
-                //open a headless browser
+            
+            //open a headless browser
                 _browser = await Puppeteer.LaunchAsync(new LaunchOptions
                 {
                     Headless = true
                 });
-                
-                return true;
-            }
-           catch(PuppeteerException e)
-            {
-                return false;
-            }
-        }
+         }
 
 
         /// <summary>
@@ -58,26 +45,6 @@ namespace Mamut.Navigator
         /// <summary>
         /// This method provides to close chromium instance
         /// </summary>
-        /// <returns>true or false</returns>
-        public async Task<bool> CloseNavigator()
-        {
-            try
-            {
-                await _browser.CloseAsync();
-
-                if (_browser.IsClosed)
-                {
-                    return true;
-                }
-                else
-                {
-                    return false;
-                }
-            }
-            catch (PuppeteerException e)
-            {
-                return false;
-            }
-        }
+        public async Task CloseNavigator() => await _browser.CloseAsync();
     }
 }

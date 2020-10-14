@@ -4,8 +4,8 @@ namespace Mamut.Navigator
 {
     public interface INavigatorManager
     {
-        Task<bool> OpenNavigator();
+        Task OpenNavigator();
         Task<string> Render(string url);
-        Task<bool> CloseNavigator();
+        Task CloseNavigator();
     }
 }

@@ -6,6 +6,10 @@ namespace Mamut.DomParser
 {
     public static class AttributesParser
     {
+        /// <summary>
+        /// This method provides to parse all attributes
+        /// <param name="attributes"></param>
+        /// <returns>Attributes list</returns>
         public static List<Attribute> Parse(HtmlAttributeCollection attributes)
         {
             List<Attribute> _attributes = new List<Attribute>();
