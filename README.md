@@ -13,6 +13,7 @@ Mamut uses a 2 open source projects to work properly:
 Like lego science. A simple POST request and JSON response.
 
 ##### Request
+To: {domain}/api/convert
 ```json
 {
     "target": "TARGET-URL"
