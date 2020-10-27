@@ -1,0 +1,11 @@
+**/.classpath
+**/.dockerignore
+**/.env
+**/.git
+**/.gitignore
+**/.vs
+**/.vscode
+**/obj
+
+LICENSE
+README.md

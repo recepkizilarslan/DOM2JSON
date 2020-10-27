@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Mamut.Domain\Mamut.Domain.csproj" />
+    <ProjectReference Include="..\DOM2JSON.Domain\DOM2JSON.Domain.csproj" />
   </ItemGroup>
 
 </Project>

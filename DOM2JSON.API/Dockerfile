@@ -7,8 +7,8 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
-COPY ["Mamut.csproj", ""]
-RUN dotnet restore "./Mamut.csproj"
+COPY ["Mamut.API.csproj", ""]
+RUN dotnet restore "./Mamut.API.csproj"
 COPY . .
 WORKDIR "/src/."
 RUN dotnet build "Mamut.csproj" -c Release -o /app/build
