@@ -1,10 +1,10 @@
-# Mamut
-Mamut is a my sunday project.It provides to convert all DOM object to JSON.
+# DOM2JSON 
+DOM2JSON  is a my sunday project.It provides to convert all DOM object to JSON.
   - It rendering target site content via chromium. So it can parse SPA(Single Page Application)
   - It parses all objects on the DOM. (Comments, meta e.t.c tags are included.)
 
 #### Tech
-Mamut uses a 2 open source projects to work properly:
+DOM2JSON  uses a 2 open source projects to work properly:
 
 * [PuppeterSharp](https://github.com/hardkoded/puppeteer-sharp "PuppeterSharp") - For navigation!
 * [HTML Agality Pack](https://github.com/zzzprojects/html-agility-pack "HTML Agality Pack") - For parsing!
